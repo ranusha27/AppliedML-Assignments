@@ -1,0 +1,15 @@
+Name       Stmts   Miss  Cover
+------------------------------
+score.py       9      0   100%
+------------------------------
+TOTAL          9      0   100%
+
+
+
+##############################
+#           REMARK
+##############################
+
+# I could not get the 'coverage' tool (or 'pytest') to monitor app.py for code coverage.
+# This was because of running the app in a separate process.
+# I had to go for a separate process because the app wouldn't terminate while testing in the same process as the test function, even if I used 'threading' to run it on a separate thread.
