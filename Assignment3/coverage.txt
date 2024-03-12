@@ -1,6 +1,6 @@
-#  File generated using the following commands:
-#  coverage run --omit test.py -m pytest test.py
-#  coverage report > coverage.txt
+#  The following table was generated using the commands:
+#      coverage run --omit test.py -m pytest test.py
+#      coverage report > coverage.txt
 
 
 Name       Stmts   Miss  Cover
